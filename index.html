@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>DevClub Convert Money</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <header>
+        <h1>DevClub Convert Money</h1>
+      </header>
+      <main>
+        <label>
+          Converter <b>de</b>
+          <select>
+            <option>R$ Real Brasileiro</option>
+          </select>
+        </label>
+
+        <label>
+          Converter <b>para</b>
+          <select id="currency-select">
+            <option>US$ Dólar Americano</option>
+            <option>€ Euro</option>
+            <option>Ƀ BitCoin</option>
+          </select>
+        </label>
+        <label>
+          <b>Valor</b>
+          <input id="input-real" placeholder="R$ 0,00" type="number" />
+        </label>
+        <button type="button" id="convert-button">Converter</button>
+
+        <section>
+          <div class="currency-container">
+            <img src="./assets/BR.png" alt="brazil-flag" />
+            <p class="currency-name">Real</p>
+            <p id="value-received" class="currency-value">R$ 0,00</p>
+          </div>
+          <img class="arrow-img" src="./assets/Vector.png" alt="arrow" />
+          <div class="currency-container">
+            <img src="./assets/EUA.png" alt="eua-flag" id="currency-img"/>
+            <p class="currency-name" id="currency-name">Dolár Americano</p>
+            <p id="converted-value" class="currency-value">$ 0,00</p>
+          </div>
+        </section>
+      </main>
+    </div>
+  </body>
+  <script src="./scripts.js"></script>
+</html>
