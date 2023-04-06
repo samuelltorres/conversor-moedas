@@ -30,5 +30,6 @@ O projeto é um conversor de moedas, nele é possivel converter do real para dol
   <img align="center" alt="JS" height="20" width="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
 </div>
 <br>
+<br>
 
-Feito com ♥ por Samuell Torres :wave: [Entre em contato!](https://www.linkedin.com/in/samuelltorres/)
+Feito com ♥ por Samuell Torres :wave:   [Entre em contato!](https://www.linkedin.com/in/samuelltorres/)
