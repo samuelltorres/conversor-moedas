@@ -2,10 +2,6 @@ const button = document.getElementById('convert-button')
 const select1 = document.getElementById('currency-select1')
 const select2 = document.getElementById('currency-select2')
 
-// const real = 0
-// const dolar = 0
-// const euro = 0
-// const libra = 0
 
 const convertValues = async() => {
     const input = document.getElementById('input-real').value
